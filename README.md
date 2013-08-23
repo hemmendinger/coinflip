@@ -1,0 +1,4 @@
+coinflip
+========
+
+coinflip generator
