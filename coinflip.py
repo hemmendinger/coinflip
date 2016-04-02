@@ -61,7 +61,7 @@ def coinopt(num):
     tails = 0
     for n in xrange(0, num):
         result = random.random()
-        if result <= .50:
+        if result < .50:
             heads += 1
         else:
             tails += 1
