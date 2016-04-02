@@ -6,7 +6,6 @@ Prints formatted results to standard output.
 
 Usage:
 
-for help:
     -h, --help
 
     --coinflips NUM, -n NUM
