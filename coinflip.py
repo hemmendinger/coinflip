@@ -1,13 +1,14 @@
 """
-program for generating coinflips with the results printed
+Generate coinflips
+Prints formatted results to standard output
 
 for help:
     -h, --help
 
 optimization:
     using random.randint(0,1) to generate 0's and 1's
-    representing heads or tails is much slower  than equal
-    or greater than evaluation of random.random() floats
+    representing heads or tails is much slower than 
+    evaluation of random.random() floats
 """
 import argparse
 import random
