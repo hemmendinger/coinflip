@@ -81,5 +81,7 @@ def print_tab(result_list):
         pct = float(item[1])/count * 100
         print '        %s: %i %f%%' % (item[0], item[1], pct)
 
-#coinflip(options.num,options.printseq)
-coinopt(options.num)
+
+if __name__ == '__main__':
+    #coinflip(options.num,options.printseq)
+    coinopt(options.num)
