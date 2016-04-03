@@ -18,3 +18,4 @@ optimization:
     representing heads or tails is much slower than
     evaluation of random.random() floats
 
+Works with Python2
